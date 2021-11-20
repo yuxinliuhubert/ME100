@@ -33,6 +33,6 @@ t1 = Timer(1)
 # t1.init(period=10, mode=t1.PERIODIC, callback=tcb)
 
 #flashing
-t1.init(period=60,mode = t1.PWM, callback = tcbstat)
+t1.init(period=60,mode = t1.PERIODIC, callback = tcbstat)
 
 #led_ext = Pin(LED, mode=Pin.OUT)
